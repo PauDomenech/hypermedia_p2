@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>7 & 1/2 game</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Seven and a half game</h1>
+    <div id="info">
+        <h2 id="player-name"></h2>
+        <label for="money">Total money:</label>
+        <span id="money"></span>
+        <div class="rectangle"></div>
+        <div class="buttons">
+            <button onclick="newRound()">New Round</button>
+            <button onclick="endGame()">End Game</button>
+        </div>
+    </div>
+    <div id="game">
+        <h2>Your cards: </h2>
+        <div id="player-cards"></div>
+        <h2>Dealer cards: </h2>
+        <div id="dealer-cards"></div>
+    </div>
+</body>
+</html>

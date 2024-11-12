@@ -1,0 +1,141 @@
+/* General styles for the body */
+body {
+    font-family: 'Georgia', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Styles for the main heading (h1) */
+h1 {
+    color: white;
+    background-color: #181c5c;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Styles for the setup section */
+.setup{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Styles for input groups */
+.input-group {
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+/* Styles for the info section */
+#info {
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+/* Styles for subtitles (h2) */
+h2 {
+    color: #000000;
+    background-color: #f0ecec;
+}
+
+/* Styles for the money label */
+label[for="money"] {
+    color: #000000;
+    font-family: calibri;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+
+/* Styles for the money span */
+#info #money {
+    color: #000000;
+    font-family: calibri;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px;
+}
+
+/* Styles for rectangles */
+.rectangle {
+    width: 100%;
+    height: 5px;
+    background-color: #181c5c;
+    margin: 10px 0;
+}
+
+/* Styles for button container */
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles for buttons */
+button {
+    background-color: #181c5c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Styles for the game section */
+#game {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Styles for setup subtitles (h2) */
+.setup h2{
+    color: #000000;
+    font-size: 25px;
+    background-color: #f0ecec;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+/* Styles for setup labels */
+.setup label{
+    color: #000000;
+    font-family: calibri;
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 8px;
+    
+}
+
+/* Styles for info subtitles (h2) */
+#info h2{
+    font-style: italic;
+    padding-left: 20px;
+}
+
+/* Styles for game subtitles (h2) */
+#game h2{
+    font-style: italic;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+/* Styles for cards */
+.card {
+    display: inline-block;
+    width: 50px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    border: #000000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 5px;
+}
