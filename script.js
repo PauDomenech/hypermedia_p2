@@ -105,7 +105,15 @@ function playerTurn(deck, playerScore, bet) {
     if (playerScore > 7.5) {
         alert('Player busts! Dealer wins.');
         updateMoney(-bet);
-        endGame();
+        resetGame();
+        return;
+    }
+
+    // Check if the player wins automatically by reaching 7.5 points
+    if (playerScore === 7.5) {
+        alert('Player wins with 7.5 points!');
+        updateMoney(bet);
+        resetGame();
         return;
     }
 
@@ -225,4 +233,15 @@ function endGame() {
     });
 
     alert('Game over. Resetting the game...');
+    window.location.href = 'index.html'; // Redirect to index.html
+}
+
+// Function to reset the game state after a round ends
+function resetGame() {
+    // Enable all buttons and reset their color after the round ends
+    const buttons = document.querySelectorAll('button');
+    buttons.forEach(button => {
+        button.disabled = false;
+        button.style.backgroundColor = '';
+    });
 }
